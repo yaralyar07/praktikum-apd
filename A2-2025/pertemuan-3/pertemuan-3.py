@@ -1,36 +1,36 @@
-# angka = 5
+angka = 5
 
-# if angka > 5:
-#     print("angka lebih besar dari 5")
-# else:
-#     print("angka tidak lebih besar dari 5")
+if angka > 5:
+    print("angka lebih besar dari 5")
+else:
+    print("angka tidak lebih besar dari 5")
 
-# cuaca = "cerah"
+cuaca = "cerah"
 
-# if cuaca == "mendung":
-#     print("di rumah aja")
-# elif cuaca == "mendung":
-#     print("makan mie")
-# else:
-#     print("main keluar")
+if cuaca == "mendung":
+    print("di rumah aja")
+elif cuaca == "mendung":
+    print("makan mie")
+else:
+    print("main keluar")
 
-# nilai = 70
+nilai = 70
 
-# if nilai >= 70:
-#    print("anda lulus")
-# else:
-#     print("anda tidak lulus")
+if nilai >= 70:
+   print("anda lulus")
+else:
+    print("anda tidak lulus")
 
-# nilai = int(input("masukkan nilai : "))
+nilai = int(input("masukkan nilai : "))
 
-# if nilai >= 90:
-#     print("A")
-# elif nilai >= 70:
-#     print("B")
-# elif nilai >= 60:
-#     print("C")
-# else:
-#     print("D")
+if nilai >= 90:
+    print("A")
+elif nilai >= 70:
+    print("B")
+elif nilai >= 60:
+    print("C")
+else:
+    print("D")
 
 a = 4
 b = 5
