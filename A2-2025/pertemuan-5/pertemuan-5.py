@@ -71,7 +71,3 @@ studyclub = tuple(liststudy)
 # print(studyclub)
 print(f"ini list : {liststudy}")
 print(f"ini tuple : {studyclub}")
-
-input("tekan enter untuk melanjutkan...")
-
-print("selamat datang")
