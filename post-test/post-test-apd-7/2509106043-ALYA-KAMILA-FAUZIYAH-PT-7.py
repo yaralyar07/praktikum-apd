@@ -86,7 +86,7 @@ def login():
             print()
             print("Terima kasih! Program ditutup.")
             input("Tekan Enter untuk keluar...")
-            exit()
+            return exit
         
         password = input("Password: ")
         
@@ -374,7 +374,9 @@ def menu_utama():
             input("Tekan Enter untuk melanjutkan...")
 
 while True:
-    login()
+    hasil_login = login()
+    if hasil_login == "exit":
+        break
     
     while True:
         if current_user not in data_keuangan or data_keuangan[current_user] == {}:

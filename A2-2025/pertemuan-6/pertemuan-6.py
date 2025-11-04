@@ -103,9 +103,3 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # #setelah menggunakan setdefault
 # print(Nilai)
 
-saldo_awal = ["3000000"]
-for i in saldo_awal:
-    print(i)
-    if i not in "1234567890":
-        print("ERROR")
-        break
